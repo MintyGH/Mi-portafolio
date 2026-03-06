@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#0f172a;
+    color:#e5e7eb;
+    line-height:1.6;
+}
+
+/* NAVBAR */
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 10%;
+    border-bottom:1px solid #334155;
+}
+
+header h1{
+    color:#3b82f6;
+}
+
+nav a{
+    color:#cbd5f5;
+    text-decoration:none;
+    margin-left:20px;
+    font-size:15px;
+}
+
+nav a:hover{
+    color:#3b82f6;
+}
+
+/* SECCIONES */
+
+section{
+    padding:60px 10%;
+}
+
+h2{
+    color:#60a5fa;
+    margin-bottom:20px;
+}
+
+span{
+    color:#3b82f6;
+}
+
+/* PROYECTOS */
+
+.project-card{
+    background:#1e293b;
+    padding:20px;
+    border-radius:8px;
+    margin-bottom:15px;
+    transition:0.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-5px);
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    padding:20px;
+    border-top:1px solid #334155;
+    margin-top:40px;
+}
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.about-text{
+    width: 60%;
+}
+
+.about-image img{
+    width: 250px;
+    border-radius: 10px;
+}
+.project-card img{
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.project-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+    margin-bottom: 40px;
+}
+
+.project-text{
+    width: 60%;
+}
+
+.project-image img{
+    width: 250px;
+    border-radius: 10px;
+}
+#socials{
+    margin-top:60px;
+}
+
+#socials h2{
+    margin-bottom:20px;
+}
+
+.social-buttons{
+    display:flex;
+    gap:20px;
+}
+
+/* BOTONES DE REDES */
+
+.social-card{
+    background:#1e293b;
+    padding:15px 30px;
+    border-radius:8px;
+    text-decoration:none;
+    color:#e5e7eb;
+    border:2px solid #334155;
+
+    transition:all 0.3s ease;
+}
+
+/* ANIMACION HOVER */
+
+.social-card:hover{
+    background:white;
+    color:black;
+    transform:translateY(-5px);
+}
